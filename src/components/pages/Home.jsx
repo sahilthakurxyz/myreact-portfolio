@@ -16,7 +16,7 @@ const Home = () => {
     const resumeUrl = resume;
     const anchorElement = document.createElement("a");
     anchorElement.href = resumeUrl;
-    anchorElement.download = "Sahil_thakur_Resume.pdf";
+    anchorElement.download = "Sahil_resume_org_3.docx";
     document.body.appendChild(anchorElement);
 
     anchorElement.click();
