@@ -11,14 +11,19 @@ const Aboutme = () => {
       <div className={styles["about-meDetail"]}>
         <h3>About Me</h3>
         <p>
-          Hi, I'm Sahil Thakur from Jammu & Kashmir. I completed my schooling in
-          J&K and graduated with a B.Tech in Electronics and Communication.
-          During my studies, I worked on projects like an Accident Alert System
-          and an RF-based Remote Control Robotic Car using Embedded Systems and
-          C. I'm skilled in Java, C, Data Structures and Algorithms, JavaScript,
-          React.js, and Node.js. I've built several projects, including this
-          portfolio, a currency converter, and a calculator. I also solve
-          problems on platforms like LeetCode, HackerRank, and GeeksforGeeks
+          I am a passionate Full-Stack MERN Developer with experience in
+          building responsive and high-performance web applications. Skilled in
+          React.js, Node.js, Express.js, MongoDB, and frontend technologies like
+          HTML, CSS, Bootstrap, and Tailwind CSS. I have hands-on experience
+          developing real-world projects including e-commerce platforms, chat
+          applications, and cloud services. I enjoy solving complex problems and
+          continuously improving my coding and problem-solving skills through
+          projects and coding challenges. My focus is on writing clean,
+          maintainable code while optimizing performance and user experience. I
+          am proactive in learning new technologies and exploring modern web
+          development tools like Redux Toolkit, Socket.io, and Docker. I thrive
+          in collaborative environments and enjoy contributing to projects that
+          create real value for users.
         </p>
       </div>
       <div className={styles["about-tabContainer"]}>
@@ -58,16 +63,16 @@ const Aboutme = () => {
           <ul>
             <li>
               <span>Front-end:</span>HTML, CSS, JAVASCRIPT, React Js,
-              Redux,Redux Toolkit,
+              Redux,Redux Toolkit, Bootstrap, Context API.
             </li>
             <li>
-              <span>Back-end:</span> Node Js, Express Js,
+              <span>Back-end:</span> Node Js, Express Js, REST API,
             </li>
             <li>
               <span>Data Base:</span>Mongo DB,NoSQL
             </li>
             <li>
-              <span>Data Structure And Algorithm:</span>JAVA
+              <span>Data Structure And Algorithm:</span>JAVA, JAVASCRIPT
             </li>
           </ul>
         </div>
@@ -100,6 +105,19 @@ const Aboutme = () => {
           id="experience"
         >
           <ul>
+            <li>
+              <span>Full-Stack MERN Developer:</span> Digitech System, Jammu,
+              India | Feb 2025 – Dec 2025
+            </li>
+            <li>
+              <span>MERN Developer:</span> Prodigy Legal, Jammu (Remote) | May
+              2023 – Mar 2024
+            </li>
+            <li>
+              <span>Frontend Developer Intern:</span> Newton School, Bangalore
+              (Remote) | Feb 2022 – Mar 2023
+            </li>
+
             <li>
               <span>C-language:</span> Naresh IT Technologies
             </li>

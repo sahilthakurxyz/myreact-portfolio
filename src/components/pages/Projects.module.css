@@ -1,0 +1,75 @@
+.projectsSection {
+  padding: 4rem 2rem;
+  background: #f5f6fa;
+  text-align: center;
+}
+
+.projectsSection h2 {
+  font-size: 2.5rem;
+  color: #2f1ee8;
+  margin-bottom: 0.5rem;
+}
+
+.projectsSection p {
+  color: #555;
+  margin-bottom: 2.5rem;
+}
+
+.projectsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.projectCard {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projectCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+.projectCard h3 {
+  font-size: 1.5rem;
+  color: #2f1ee8;
+  margin-bottom: 1rem;
+}
+
+.projectCard .tech {
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.projectCard .description {
+  color: #444;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 0.5rem 1.2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  background: #2f1ee8;
+  color: #fff;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #6c63ff;
+}

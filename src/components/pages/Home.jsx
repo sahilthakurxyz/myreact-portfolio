@@ -35,7 +35,7 @@ const Home = () => {
   };
   return (
     <div className={styles["home-mainContainer"]}>
-      <MetaData title="welcome to my Portfolio" />
+      <MetaData title="Sahil Thakur" />
       <div className={styles["home-mainContainerBox"]}>
         <div className={styles["home-mainContainerHeaderBox"]}>
           <Header />

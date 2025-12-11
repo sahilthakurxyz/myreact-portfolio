@@ -8,36 +8,53 @@ const MyProjects = () => {
         <div className={styles["project-list"]}>
           <div className={styles["project-item"]}>
             <i className="fa-solid fa-indian-rupee-sign"></i>
-            <h2 className={styles["project-title"]}>Ecommerce</h2>
+            <h2 className={styles["project-title"]}>Cartico-EW</h2>
             <p className={styles["project-p"]}>
-              developing, and deploying a comprehensive e-commerce website for
-              shopping products. Skilled in both front-end and back-end
-              development, adept at creating a user-friendly and feature-rich
-              shopping experience. Front-End: HTML5, CSS3, JavaScript (React)
-              Back-End: ( - Node.js with Express, Third Party Modules) Database:
-              (MongoDB) Version Control: Git Additional Tools: (test Payment
-              with Stripe.) Features: User Interface: Designed and developed a
-              visually appealing and responsive user interface for product
-              browsing, searching, and management. Product Management:
-              Implemented functionalities for CRUD (Create, Read, Update,
-              Delete) operations on products, including adding descriptions,
-              images, and managing inventory. User Accounts: Developed user
-              registration, login, and profile management functionalities.
-              Review System: Enabled users to leave reviews and ratings for
-              products. Shopping Cart & Checkout: Built a robust shopping cart
-              system with test payment processing integration. Order Management:
-              Implemented features for order tracking, status updates, and order
-              history. Admin Panel: Created a comprehensive admin panel for
-              managing products, users, orders, and website content. Security:
-              Implemented security measures to protect user data and prevent
-              vulnerabilities.
+              A scalable, responsive e-commerce platform built with MERN stack
+              and Redux Toolkit, featuring cart management, product filtering,
+              and optimized performance, deployed on Vercel and Render for
+              reliable full-stack operation.
             </p>
             <a
-              href="https://your-personal-shop.vercel.app"
+              href="https://cartico-ew-payw.vercel.app/"
               target="_blank"
               className={styles["project-link"]}
             >
               use it!
+            </a>
+          </div>
+          <div className={styles["project-item"]}>
+            <i className="fa-solid fa-address-card"></i>
+            <h2 className={styles["project-title"]}>Chat App</h2>
+            <p className={styles["project-p"]}>
+              A real-time chat application built with React.js, Node.js,
+              Express.js, MongoDB, and Socket.io, featuring messaging,
+              online/offline status, last-seen tracking, and deployed on Vercel
+              and Render for seamless full-stack performance.
+            </p>
+            <a
+              href="https://chat-app-mu-vert-33.vercel.app/"
+              target="_blank"
+              className={styles["project-link"]}
+            >
+              use it!
+            </a>
+          </div>
+          <div className={styles["project-item"]}>
+            <i className="fa-solid fa-address-card"></i>
+            <h2 className={styles["project-title"]}>DigiCloud Services</h2>
+            <p className={styles["project-p"]}>
+              A responsive web application built with HTML, CSS, JavaScript, and
+              Bootstrap, featuring optimized UI layouts, SEO improvements,
+              performance tuning, and GoDaddy hosting deployment for reliable
+              and fast web experience.
+            </p>
+            <a
+              href="https://www.digiclouds.in/"
+              target="_blank"
+              className={styles["project-link"]}
+            >
+              visit it!
             </a>
           </div>
           <div className={styles["project-item"]}>
@@ -68,7 +85,7 @@ const MyProjects = () => {
           </div>
           <div className={styles["project-item"]}>
             <i className="fa-solid fa-file"></i>
-            <h2 className={styles["project-title"]}>Resume</h2>
+            <h2 className={styles["project-title"]}>Currency Converter</h2>
             <p className={styles["project-p"]}>
               Feature : This app is used to convert one currency into another
               while the exchange rate of the other currency is changing in

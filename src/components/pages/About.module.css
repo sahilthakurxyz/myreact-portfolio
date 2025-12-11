@@ -1,134 +1,153 @@
 .about {
-    padding: 2rem 0;
-    animation: fadeIn 1s ease-in-out;
-  }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 2rem;
-  }
-  
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  
-  .aboutCol2 {
-    flex: 1;
-    padding: 1rem;
-  }
+  padding: 4rem 0;
+  animation: fadeIn 1s ease-in-out;
+  background: #f5f6fa;
+  border-radius: 1rem;
+}
 
-  .subTitle {
-    
-    font: 500 2rem "Rubik";
-    color: #2f1ee8;
-    margin-bottom: 1rem;
-  }
-  
-  .pColor {
-    margin: 0 auto;
-    width: 50%;
-    box-sizing: border-box;
-    background-color: #fff;
-    padding: 1vmax;
-    color: #666;
-    line-height: 1.6;
-    font: 500 1.3vmax "Roboto";
-    box-shadow: 1px 3px 7px 2px rgba(227, 211, 211, 0.23);
-  }
-  
-  .tabTitles {
-    display: flex;
-    margin-top: 2rem;
-  }
-  
-  .tabLinks {
-    padding: 0.5rem 1rem;
-    margin-right: 1rem;
-    cursor: pointer;
-    color: #666;
-    transition: color 0.3s;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .tabLinks::before,
-  .tabLinks::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: white;
-    z-index: 1;
-  }
-  
-  .tabLinks::before {
-    top: 0;
-    left: -100%;
-    animation: slideIn 1s forwards;
-  }
-  
-  .tabLinks::after {
-    bottom: 0;
-    right: -100%;
-    animation: slideIn 1s 0.5s forwards;
-  }
-  
-  @keyframes slideIn {
-    to {
-      left: 100%;
-      right: 100%;
-    }
-  }
-  
-  .tabLinks:hover {
-    color: #000;
-  }
-  
-  .activeLink {
-    color: #000;
-    font-weight: bold;
-  }
-  
-  .tabContents {
-    display: none;
-    margin-top: 1rem;
-  }
-  
-  .activeTab {
-    display: block;
-  }
-  
-  .tabContents ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .tabContents li {
-    margin-bottom: 0.5rem;
-    padding: 0.5rem;
-    background: #fff;
-    border-radius: 0.5rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-  }
-  
-  .tabContents li:hover {
-    transform: translateY(-5px);
-  }
-  
-  .tabContents li span {
-    font-weight: bold;
-    color: #333;
-  }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.aboutCol2 {
+  flex: 1;
+  min-width: 320px;
+  padding: 1rem;
+}
+
+.subTitle {
+  font: 600 2.5rem "Rubik", sans-serif;
+  color: #2f1ee8;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.subTitle::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, #2f1ee8, #6c63ff);
+  margin-top: 8px;
+  border-radius: 2px;
+}
+
+.pColor {
+  margin: 1rem 0;
+  width: 100%;
+  padding: 1.5rem;
+  color: #444;
+  font: 500 1rem "Roboto", sans-serif;
+  line-height: 1.7;
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.tabTitles {
+  display: flex;
+  margin-top: 2rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.tabLinks {
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  color: #666;
+  border-radius: 50px;
+  background: #e8eaf6;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.tabLinks:hover {
+  color: #fff;
+  background: #2f1ee8;
+}
+
+.activeLink {
+  color: #fff;
+  background: #2f1ee8;
+  font-weight: bold;
+}
+
+.tabContents {
+  display: none;
+  margin-top: 1.5rem;
+}
+
+.activeTab {
+  display: block;
+}
+
+.tabContents ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tabContents li {
+  margin-bottom: 0.8rem;
+  padding: 0.8rem 1rem;
+  background: #fff;
+  border-radius: 0.8rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.tabContents li:hover {
+  transform: translateY(-5px) scale(1.02);
+}
+
+.tabContents li span {
+  font-weight: 600;
+  color: #2f1ee8;
+}
+.experienceList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.experienceList li {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experienceList li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+.experienceList li span {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #2f1ee8;
+}
+
+.experienceList li p {
+  margin-top: 0.5rem;
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}

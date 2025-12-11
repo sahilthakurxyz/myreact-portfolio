@@ -15,18 +15,20 @@ const About = () => {
           <div className={styles.aboutCol2}>
             <h1 className={styles.subTitle}>About Me</h1>
             <p className={styles.pColor}>
-              Hey, I'm Sahil Thakur. I'm from Jammu & Kashmir (J&K). I have
-              completed my schooling in Jammu & Kashmir board and my B.Tech
-              graduation in electronics and communication. I have completed
-              various projects in my graduation like Accident Alert System, RF
-              based Remote Control Robotic car, and various other small projects
-              using Embedded Systems and C language. I also have good skills in
-              JAVA, C, Data Structure and Algorithm, JAVASCRIPT, REACT JS,
-              ANGULAR JS, NODE JS. I have completed various projects in these
-              technologies. For example, this portfolio is one of my projects,
-              and I've also created a currency converter, calculator, etc.
-              Additionally, I solve problems on various platforms like LeetCode,
-              HackerRank, GeeksforGeeks, Newton Schools, and many others.
+              I am a passionate Full-Stack MERN Developer with experience in
+              building responsive and high-performance web applications. Skilled
+              in React.js, Node.js, Express.js, MongoDB, and frontend
+              technologies like HTML, CSS, Bootstrap, and Tailwind CSS. I have
+              hands-on experience developing real-world projects including
+              e-commerce platforms, chat applications, and cloud services. I
+              enjoy solving complex problems and continuously improving my
+              coding and problem-solving skills through projects and coding
+              challenges. My focus is on writing clean, maintainable code while
+              optimizing performance and user experience. I am proactive in
+              learning new technologies and exploring modern web development
+              tools like Redux Toolkit, Socket.io, and Docker. I thrive in
+              collaborative environments and enjoy contributing to projects that
+              create real value for users.
             </p>
 
             <div className={styles.tabTitles}>
@@ -104,12 +106,57 @@ const About = () => {
               }`}
               id="experience"
             >
-              <ul>
+              <ul className={styles.experienceList}>
                 <li>
-                  <span>C-language:</span> Naresh IT Technologies
+                  <span>Full-Stack MERN Developer:</span> Digitech System,
+                  Jammu, India | Feb 2025 – Dec 2025
+                  <p>
+                    Built responsive UIs using HTML, CSS, JavaScript, and
+                    Bootstrap; developed full-stack features with React,
+                    Node.js, Express.js, and MongoDB; handled debugging,
+                    testing, SEO, and performance optimization for real-world
+                    business applications.
+                  </p>
                 </li>
+
                 <li>
-                  <span>Embedded System:</span> 40 days - Training (Chandigarh)
+                  <span>MERN Developer:</span> Prodigy Legal, Jammu (Remote) |
+                  May 2023 – Mar 2024
+                  <p>
+                    Worked remotely on developing features using React.js,
+                    Node.js, Express.js, and MongoDB; created and integrated UI
+                    components; fixed 40+ bugs, improving application
+                    performance and stability.
+                  </p>
+                </li>
+
+                <li>
+                  <span>Frontend Developer Intern:</span> Newton School,
+                  Bangalore (Remote) | Feb 2022 – Mar 2023
+                  <p>
+                    Gained hands-on experience in HTML, CSS, JavaScript, and
+                    React.js; strengthened Data Structures & Algorithms (DSA)
+                    skills; built responsive mini-projects like personal
+                    portfolio, Netflix Clone, Calculator App, and Weather App.
+                  </p>
+                </li>
+
+                <li>
+                  <span>C-language Training:</span> Naresh IT Technologies
+                  <p>
+                    Completed foundational C programming training covering
+                    variables, loops, functions, arrays, and problem-solving
+                    basics.
+                  </p>
+                </li>
+
+                <li>
+                  <span>Embedded System Training:</span> 40 days - Chandigarh
+                  <p>
+                    Hands-on training in microcontrollers and embedded systems;
+                    learned interfacing sensors, basic circuit programming, and
+                    real-time applications.
+                  </p>
                 </li>
               </ul>
             </div>
